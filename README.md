@@ -18,7 +18,7 @@ The original dataset contained 115,675 loan applications in Q1 of 2019. We used 
 
 Using the 75/25% method to split the data for training vs. testing, 51,366 "low risk" and 246 "high risk" applications were categorized into the training set.   
 
-![trainingdata](https://github.com/amylio/Credit_Risk_Analysis/blob/main/Images/trainingdata.png)
+![trainingdata](https://github.com/Lindsaybgood/Credit_Risk_Analysis/blob/main/Images/trainingdata.png)
 
 ## Deliverable 1: Use Resampling Models to Predict Credit Risk
 
