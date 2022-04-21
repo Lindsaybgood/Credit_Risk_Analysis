@@ -30,44 +30,44 @@ Using the 75/25% method to split the data for training vs. testing, 51,366 "low 
 
   * Balanced accuracy score: 64%.
 
-  ![oversampleacc](https://github.com/amylio/Credit_Risk_Analysis/blob/main/Images/oversampleacc.png)
+  ![oversampleacc](https://github.com/Lindsaybgood/Credit_Risk_Analysis/blob/main/Images/oversampleacc.png)
 
   * The "High Risk" precision rate was only 1% with the recall at 66% giving this model an F1 score of 2%.
   * "Low Risk" had a precision rate of 100% and recall at 62%.  
   
-  ![oversamplecm](https://github.com/amylio/Credit_Risk_Analysis/blob/main/Images/oversamplecm.png)
+  ![oversamplecm](https://github.com/Lindsaybgood/Credit_Risk_Analysis/blob/main/Images/oversamplecm.png)
   
-  ![oversampleclass](https://github.com/amylio/Credit_Risk_Analysis/blob/main/Images/oversampleclass.png)
+  ![oversampleclass](https://github.com/Lindsaybgood/Credit_Risk_Analysis/blob/main/Images/oversampleclass.png)
 
 **`SMOTE (Synthetic Minority Oversampling Technique) Model`**, like `RandomOverSampler` increases the size of the minority class by creating new values based on the value of the closest neighbors to the minority class instead of random selection. 
 
   * The balanced accuracy score improved slightly to 65.1%.
 
-  ![smoteacc](https://github.com/amylio/Credit_Risk_Analysis/blob/main/Images/Smoteacc.png)
+  ![smoteacc](https://github.com/Lindsaybgood/Credit_Risk_Analysis/blob/main/Images/Smoteacc.png)
 
   * Like `RandomOverSampler`, the "High Risk" precision rate again was only 1% with the recall degraded to 61% giving this model an F1 score of 2%.
   * "Low Risk" had a precision rate of 100% and an improved recall at 69%.  
 
-  ![smotecm](https://github.com/amylio/Credit_Risk_Analysis/blob/main/Images/SmoteCM.png)
+  ![smotecm](https://github.com/Lindsaybgood/Credit_Risk_Analysis/blob/main/Images/SmoteCM.png)
   
-  ![smoteclass](https://github.com/amylio/Credit_Risk_Analysis/blob/main/Images/SmoteClass.png)
+  ![smoteclass](https://github.com/Lindsaybgood/Credit_Risk_Analysis/blob/main/Images/SmoteClass.png)
 
 ### Undersampling
 
 **`ClusterCentroids Model`**, an algorithm that identifies clusters of the majority class to generate synthetic data points that are representative of the clusters. The model classified 246 records each as High Risk and Low Risk.
 
-![undersamplecount](https://github.com/amylio/Credit_Risk_Analysis/blob/main/Images/undersamplecount.png)
+![undersamplecount](https://github.com/Lindsaybgood/Credit_Risk_Analysis/blob/main/Images/undersamplecount.png)
 
   * Balanced accuracy score was lower than the oversampling models at 54.5%.
 
-  ![underacc](https://github.com/amylio/Credit_Risk_Analysis/blob/main/Images/underacc.png)
+  ![underacc](https://github.com/Lindsaybgood/Credit_Risk_Analysis/blob/main/Images/underacc.png)
 
   * The "High Risk" precision rate again was only at 1% with the recall at 69% giving this model an F1 score of 1%.
   * "Low Risk" had a precision rate of 100% and with a lower recall at 40% compared to the oversampling models.  
 
-  ![undercm](https://github.com/amylio/Credit_Risk_Analysis/blob/main/Images/undercm.png)
+  ![undercm](https://github.com/Lindsaybgood/Credit_Risk_Analysis/blob/main/Images/undercm.png)
   
-  ![underclass](https://github.com/amylio/Credit_Risk_Analysis/blob/main/Images/underclass.png)
+  ![underclass](https://github.com/Lindsaybgood/Credit_Risk_Analysis/blob/main/Images/underclass.png)
 
 ## Deliverable 2: Use the SMOTEENN algorithm to Predict Credit Risk
 
