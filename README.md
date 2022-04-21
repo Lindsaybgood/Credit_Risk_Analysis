@@ -75,53 +75,53 @@ Using the 75/25% method to split the data for training vs. testing, 51,366 "low 
 
 **`SMOTEENN (Synthetic Minority Oversampling Technique + Edited NearestNeighbors) Model`** combines aspects of both oversampling and undersampling. The model classified 68,460 records as High Risk and 62,011 as Low Risk.
 
-![SMOTEENNcount](https://github.com/amylio/Credit_Risk_Analysis/blob/main/Images/SMOTEENNcount.png)
+![SMOTEENNcount](https://github.com/Lindsaybgood/Credit_Risk_Analysis/blob/main/Images/SMOTEENNcount.png)
 
   * The balanced accuracy score improved to 64.5% when using a combined sampling model.
 
-  ![SMOTEENNacc](https://github.com/amylio/Credit_Risk_Analysis/blob/main/Images/SMOTEENNacc.png)
+  ![SMOTEENNacc](https://github.com/Lindsaybgood/Credit_Risk_Analysis/blob/main/Images/SMOTEENNacc.png)
 
   * The "High Risk" precision rate did not improve was only 1%, however the recall increased to 72% giving this model an F1 score of 2%.
   * "Low Risk" still showed a precision rate of 100% with the recall at 57%.  
   
-  ![SMOTEENNcm](https://github.com/amylio/Credit_Risk_Analysis/blob/main/Images/SMOTEENNcm.png)
+  ![SMOTEENNcm](https://github.com/Lindsaybgood/Credit_Risk_Analysis/blob/main/Images/SMOTEENNcm.png)
 
-  ![SMOTEENNclass](https://github.com/amylio/Credit_Risk_Analysis/blob/main/Images/SMOTEENNclass.png)
+  ![SMOTEENNclass](https://github.com/Lindsaybgood/Credit_Risk_Analysis/blob/main/Images/SMOTEENNclass.png)
 
 ## Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 
 Compare two new `Machine Learning` models that reduce bias to predict credit risk. The models classified 51,366 as High Risk and 246 as Low Risk.
 
-![Balancedcount](https://github.com/amylio/Credit_Risk_Analysis/blob/main/Images/balancedcount.png)
+![Balancedcount](https://github.com/Lindsaybgood/Credit_Risk_Analysis/blob/main/Images/balancedcount.png)
 
 **`BalancedRandomForestClassifier Model`**, two trees of the same size and equal size to the minority class are constructed to represent one for the majority class and one for the minority class. 
 
   * The balanced accuracy score increased to 78.9% for this model.
 
-  ![balanceacc](https://github.com/amylio/Credit_Risk_Analysis/blob/main/Images/Balancedacc.png)
+  ![balanceacc](https://github.com/Lindsaybgood/Credit_Risk_Analysis/blob/main/Images/Balancedacc.png)
 
   * The "High Risk precision rate increased to 3% with the recall at 70% giving this model an F1 score of 6%.
   * "Low Risk" still had a precision rate of 100% with the recall at 87%.  
   * The top feature by importance was "total_rec_prncp" at 7.9% of the total.
 
-  ![balancecm](https://github.com/amylio/Credit_Risk_Analysis/blob/main/Images/Balancedcm.png)
+  ![balancecm](https://github.com/Lindsaybgood/Credit_Risk_Analysis/blob/main/Images/Balancedcm.png)
   
-  ![balanceclass](https://github.com/amylio/Credit_Risk_Analysis/blob/main/Images/balancedclass.png)
+  ![balanceclass](https://github.com/Lindsaybgood/Credit_Risk_Analysis/blob/main/Images/balancedclass.png)
 
-  ![balancefeature](https://github.com/amylio/Credit_Risk_Analysis/blob/main/Images/BalancedFeature.png) 
+  ![balancefeature](https://github.com/Lindsaybgood/Credit_Risk_Analysis/blob/main/Images/BalancedFeature.png) 
 
 **`EasyEnsembleClassifier Model`**, a set of classifiers where individual decisions are combined to classify new examples.
 
   * The balanced accuracy score increased to 93.2% with this model.
 
-  ![easyeacc](https://github.com/amylio/Credit_Risk_Analysis/blob/main/Images/Easyacc.png)
+  ![easyeacc](https://github.com/Lindsaybgood/Credit_Risk_Analysis/blob/main/Images/Easyacc.png)
 
   * The "High Risk precision rate increased to 9% with the recall at 92% giving this model an F1 score of 16%.
   * "Low Risk" still had a precision rate of 100% with the recall now at 94%.  
 
-  ![easycm](https://github.com/amylio/Credit_Risk_Analysis/blob/main/Images/Easycm.png)
+  ![easycm](https://github.com/Lindsaybgood/Credit_Risk_Analysis/blob/main/Images/Easycm.png)
   
-  ![easyclass](https://github.com/amylio/Credit_Risk_Analysis/blob/main/Images/Easyclass.png)
+  ![easyclass](https://github.com/Lindsaybgood/Credit_Risk_Analysis/blob/main/Images/Easyclass.png)
 
 # Summary
 
@@ -139,5 +139,5 @@ A side note that should be considered is that original dataset had 99% of the ap
 
 # Resources
 
-* Dataset from LendingClub: [LoanStats_2019Q1](https://github.com/amylio/Credit_Risk_Analysis/blob/main/Resources/LoanStats_2019Q1.csv)
+* Dataset from LendingClub: [LoanStats_2019Q1](https://github.com/Lindsaybgood/Credit_Risk_Analysis/blob/main/Resources/LoanStats_2019Q1.csv)
 * Software: Python 3.7.9, Anaconda 4.9.2 and Jupyter Notebooks 6.1.4
