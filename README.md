@@ -1,4 +1,4 @@
-![lendinglogo](https://github.com/amylio/Credit_Risk_Analysis/blob/main/Images/LendingClubLogo2.png)
+![lendinglogo](https://github.com/Lindsaybgood/Credit_Risk_Analysis/blob/main/Images/LendingClubLogo2.png)
 
 An analysis using Machine Learning algorithms to identify credit card risk using a dataset from LendingClub.
 
