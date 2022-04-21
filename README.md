@@ -14,7 +14,7 @@ As mentioned in the overview, we use `Machine Learning` to resample the dataset 
 
 The original dataset contained 115,675 loan applications in Q1 of 2019. We used the "loan status" to determine whether the application was considered "low" or "high" risk. Applications that had "current" as the "loan status" were classified as "low risk" and the remaining as "high risk". This reduced the dataset to 68,817 total applications with 99% classified as "low risk". 
 
-![datacount](https://github.com/amylio/Credit_Risk_Analysis/blob/main/Images/datacount.png)
+![datacount](https://github.com/Lindsaybgood/Credit_Risk_Analysis/blob/main/Images/datacount.png)
 
 Using the 75/25% method to split the data for training vs. testing, 51,366 "low risk" and 246 "high risk" applications were categorized into the training set.   
 
